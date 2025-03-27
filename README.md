@@ -1,4 +1,4 @@
-# Tech book club landing page
+# Tech book club landing page - Tailwind CSS
 
 ![Design preview for the Tech book club landing page coding challenge](./preview.jpg)
 
