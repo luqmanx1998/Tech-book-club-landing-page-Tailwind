@@ -535,6 +535,12 @@
       top: calc(var(--spacing) * 0);
     }
   }
+  .before\:left-0 {
+    &::before {
+      content: var(--tw-content);
+      left: calc(var(--spacing) * 0);
+    }
+  }
   .before\:left-\[-8px\] {
     &::before {
       content: var(--tw-content);
@@ -551,6 +557,18 @@
     &::before {
       content: var(--tw-content);
       z-index: 30;
+    }
+  }
+  .before\:block {
+    &::before {
+      content: var(--tw-content);
+      display: block;
+    }
+  }
+  .before\:h-\[100\%\] {
+    &::before {
+      content: var(--tw-content);
+      height: 100%;
     }
   }
   .before\:h-\[105\%\] {
@@ -575,6 +593,12 @@
     &::before {
       content: var(--tw-content);
       background-size: contain;
+    }
+  }
+  .before\:bg-cover {
+    &::before {
+      content: var(--tw-content);
+      background-size: cover;
     }
   }
   .before\:bg-no-repeat {
