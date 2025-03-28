@@ -1052,6 +1052,11 @@
       justify-content: center;
     }
   }
+  .xl\:justify-items-center {
+    @media (width >= 80rem) {
+      justify-items: center;
+    }
+  }
   .xl\:gap-12 {
     @media (width >= 80rem) {
       gap: calc(var(--spacing) * 12);
