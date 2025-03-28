@@ -541,6 +541,18 @@
       left: -8px;
     }
   }
+  .before\:z-10 {
+    &::before {
+      content: var(--tw-content);
+      z-index: 10;
+    }
+  }
+  .before\:z-30 {
+    &::before {
+      content: var(--tw-content);
+      z-index: 30;
+    }
+  }
   .before\:h-\[105\%\] {
     &::before {
       content: var(--tw-content);
